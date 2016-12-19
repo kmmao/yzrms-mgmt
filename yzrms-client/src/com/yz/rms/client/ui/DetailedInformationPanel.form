@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[324, 1132]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,109,0,0,1,26"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder bottom="0" left="0" right="0" top="0"/>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder bottom="10" left="10" right="10" top="10"/>
+              </Border>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="infoPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="10" left="0" right="0" top="0"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="expensePersonLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseProjectLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="teamLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseFormStateLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="creatorLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="createTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="modifierLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="modifyTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="expensePersonTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="expenseTimeTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="expenseProjectTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="teamTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="expenseFormStateTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="creatorTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="createTimeTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="modifierTxt" alignment="1" max="32767" attributes="0"/>
+                              <Component id="modifyTimeTxt" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="expensePersonLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="expensePersonTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="expenseTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseTimeTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="expenseProjectLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseProjectTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="teamLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="teamTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="expenseFormStateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="expenseFormStateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="creatorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="creatorTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="createTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="createTimeTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="modifierLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="modifierTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="modifyTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="modifyTimeTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="expensePersonLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x62a5;&#x9500;&#x4eba;&#x5458;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="expensePersonTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="expenseTimeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x62a5;&#x9500;&#x65f6;&#x95f4;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="expenseTimeTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="expenseProjectTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="expenseProjectLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x62a5;&#x9500;&#x9879;&#x76ee;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="teamLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x6240;&#x5728;&#x56e2;&#x961f;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="teamTxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="teamTxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="expenseFormStateTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="expenseFormStateLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x62a5;&#x9500;&#x5355;&#x72b6;&#x6001;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="creatorTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="creatorLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x521b;&#x5efa;&#x4eba;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="createTimeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x521b;&#x5efa;&#x65f6;&#x95f4;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="createTimeTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="modifierLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x6700;&#x8fd1;&#x4fee;&#x6539;&#x4eba;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="modifierTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="modifyTimeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x4fee;&#x6539;&#x65f6;&#x95f4;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="modifyTimeTxt">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="feePanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="10" left="0" right="0" top="0"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cityTrafficLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelMealsLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="booksMaterialsLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelAllowanceLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="cityGasolineLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelAccommodationLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="copyBindLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelTrafficLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="entertainLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="spacePageLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="materialLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="conferencesLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="trainLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="fieldOperationLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="officeSuppliesLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="telephoneBillLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="postageLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cityTrafficTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="travelMealsTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="booksMaterialsTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="travelAllowanceTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="cityGasolineTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="travelAccommodationTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="copyBindTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="travelTrafficTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="entertainTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="spacePageTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="materialTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="conferencesTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="trainTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="fieldOperationTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="officeSuppliesTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="telephoneBillTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="postageTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                              <Component id="totalTxt" alignment="1" pref="159" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cityTrafficLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cityTrafficTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="travelMealsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelMealsTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="booksMaterialsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="booksMaterialsTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="travelAllowanceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelAllowanceTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cityGasolineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cityGasolineTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="travelAccommodationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelAccommodationTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="copyBindLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="copyBindTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="travelTrafficLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="travelTrafficTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="entertainLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="entertainTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="spacePageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="spacePageTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="materialLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="materialTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="conferencesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="conferencesTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="trainLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="trainTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="fieldOperationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fieldOperationTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="officeSuppliesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="officeSuppliesTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="telephoneBillLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="telephoneBillTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="postageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="postageTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="totalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="cityTrafficLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5e02;&#x5185;&#x4ea4;&#x901a;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="cityTrafficTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="travelMealsLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x51fa;&#x5dee;&#x9910;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="travelMealsTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="booksMaterialsLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x56fe;&#x4e66;&#x8d44;&#x6599;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="booksMaterialsTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="travelAllowanceLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x51fa;&#x5dee;&#x8865;&#x52a9;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="travelAllowanceTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="cityGasolineTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityGasolineLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5e02;&#x5185;&#x6c7d;&#x6cb9;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="travelAccommodationLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x51fa;&#x5dee;&#x4f4f;&#x5bbf;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="travelAccommodationTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="copyBindLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x590d;&#x5370;&#x88c5;&#x8ba2;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="copyBindTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="travelTrafficLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x51fa;&#x5dee;&#x4ea4;&#x901a;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="travelTrafficTxt">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="travelTrafficTxtActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="entertainLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5e02;&#x5185;&#x62db;&#x5f85;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="entertainTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="spacePageLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x7248;&#x9762;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="spacePageTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="materialLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x6750;&#x6599;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="materialTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="conferencesTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="conferencesLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x4f1a;&#x8bae;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="trainLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x57f9;&#x8bad;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="trainTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="fieldOperationLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5916;&#x52e4;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="fieldOperationTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="officeSuppliesLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x529e;&#x516c;&#x7528;&#x54c1;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="officeSuppliesTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="telephoneBillTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="telephoneBillLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x7535;&#x8bdd;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="postageLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x90ae;&#x8d39;&#xff1a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="postageTxt">
+                </Component>
+                <Component class="javax.swing.JTextField" name="totalTxt">
+                </Component>
+                <Component class="javax.swing.JLabel" name="totalLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x603b;&#x8ba1;&#xff1a;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="auditMarkPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="memoTxa">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="1"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="1" insetsLeft="33" insetsBottom="1" insetsRight="34" anchor="18" weightX="1.0" weightY="1.0"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+          <LayoutCode>
+            <CodeStatement>
+              <CodeExpression id="1_jPanel1">
+                <CodeVariable name="jPanel1" type="8194" declaredType="javax.swing.JPanel"/>
+                <ExpressionOrigin>
+                  <ExpressionProvider type="ComponentRef">
+                    <ComponentRef name="jPanel1"/>
+                  </ExpressionProvider>
+                </ExpressionOrigin>
+              </CodeExpression>
+              <StatementProvider type="CodeMethod">
+                <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+              </StatementProvider>
+              <Parameters>
+                <CodeExpression id="2">
+                  <ExpressionOrigin>
+                    <ExpressionProvider type="CodeConstructor">
+                      <CodeConstructor class="com.nazca.ui.layout.BoxLayout2" parameterTypes=""/>
+                    </ExpressionProvider>
+                  </ExpressionOrigin>
+                </CodeExpression>
+              </Parameters>
+            </CodeStatement>
+          </LayoutCode>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
